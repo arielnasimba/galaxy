@@ -1,4 +1,5 @@
 import React from 'react'
+import NavBar from '../Navbar/NavBar'
 
 export default function  Crew() {
   return (
@@ -11,6 +12,9 @@ export default function  Crew() {
     
     
     {/* <Outlet/> */}
+
+    <NavBar />
+
       </div>
 
     

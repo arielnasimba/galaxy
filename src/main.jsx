@@ -23,43 +23,61 @@ const router = createBrowserRouter([
   {
     path: "/",
 
-    element: <NavBar/>,
+    element: <Home />,
 
-    children:[
-      {
+    // children:[
+    //   {
   
-        path:"/galaxy/home/",
-        element:<Home/>,
-        index:true,
+    //     path:"/home/",
+    //     element:<Home/>,
+    //     index:true,
     
 
-      },
-      {
+    //   },
+    //   {
   
-        path:"/galaxy/crew/",
-        element: <Crew/>,
+    //     path:"/galaxy/crew/",
+    //     element: <Crew/>,
     
 
-      },
-      {
+    //   },
+    //   {
 
-        path:"/galaxy/destination/",
-        element:<Destination />,
+    //     path:"/galaxy/destination/",
+    //     element:<Destination />,
         
-      },
-      {
+    //   },
+    //   {
 
-        path:"/galaxy/tech/",
-        element:<Tech />,
+    //     path:"/galaxy/tech/",
+    //     element:<Tech />,
         
-      },
-    ]
+    //   },
+    // ]
     
   },
   // {
   //   path:"/galaxy/home/",
   //   element:<Home/>,
   // },
+  {
+    path: "/destination",
+
+    element: <Destination />,
+
+  },
+  {
+    path: "/crew",
+
+    element: <Crew />,
+
+  },
+  {
+    path: "/tech",
+
+    element: <Tech />,
+
+  },
 
 ]);
 

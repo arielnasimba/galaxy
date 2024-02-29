@@ -66,7 +66,7 @@ export default function NavBar() {
           <li className={`hover:underline hover:underline-offset-[3rem] hover:decoration-4`}>
 
             <Link 
-             to={`/galaxy/home/`}>
+             to={`/`}>
             
               <h2 className=" " >00 HOME</h2>
             </Link>
@@ -76,7 +76,7 @@ export default function NavBar() {
           <li className={`hover:underline hover:underline-offset-[3rem] hover:decoration-4`}>
 
             <Link
-             to={`/galaxy/destination/`}
+             to={`/destination/`}
               
             >
               <h2>01 DESTINATION</h2>
@@ -86,7 +86,7 @@ export default function NavBar() {
           <li className={`hover:underline hover:underline-offset-[3rem] hover:decoration-4`}>
 
             <Link
-              to={`/galaxy/crew/`}
+              to={`/crew/`}
             >
             <h2>02 CREW</h2>
             
@@ -95,7 +95,7 @@ export default function NavBar() {
           <li className={`hover:underline hover:underline-offset-[3rem] hover:decoration-4`}>
 
             <Link
-              to={`/galaxy/tech/`}
+              to={`/tech/`}
          
             >
             

@@ -1,4 +1,5 @@
 import React from 'react'
+import NavBar from '../Navbar/NavBar';
 
 export default function Destination() {
   return (
@@ -7,6 +8,8 @@ export default function Destination() {
         className={`w-[100dvw]   h-[100dvh]   bg-no-repeat bg-cover min-[1440px]:bg-destination-desktop `}
       >
         {/* <Outlet/> */}
+
+        <NavBar />
       </div>
     </>
   );
