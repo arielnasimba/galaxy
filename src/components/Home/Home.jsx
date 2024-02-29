@@ -12,12 +12,109 @@ export default function Home() {
 
 
     <>
-      <div className={`w-[100dvw]   h-[100dvh]   bg-no-repeat bg-cover min-[1440px]:bg-home-desktop `} 
+      <div className={`w-[100dvw]   h-[100dvh]   bg-no-repeat bg-cover 
+                          
+                          
+                          min-[1440px]:bg-home-desktop  min-[1440px]:flex 
+                          min-[1440px]:flex-col min-[1440px]:flex-wrap
+                      `} 
       >
         <NavBar />
     
-    
-    {/* <Outlet/> */}
+
+        <div className={`down-box  w-[72%] h-[46.5%] 
+        
+        
+                          min-[1440px]:self-center min-[1440px]:absolute 
+                          min-[1440px]:bottom-[6.4rem] min-[1440px]:flex
+                          min-[1440px]:flex-wrap min-[1440px]:justify-between
+                        `}>
+
+                            {/* left side start*/}
+              <div className={`left  text-white
+
+
+                                min-[1440px]:h-full  min-[1440px]:w-[47%]
+                                min-[1440px]:flex min-[1440px]:flex-col justify-between
+
+                              `}>
+
+                                <div className={`top w-full  
+                                  
+                                                  h-[12%]
+                                                   min-[1440px]:`}>
+
+                                  <h3 className={`
+                                  
+                                  
+                                  min-[1440px]:text-[2.14rem]
+                                  `}   
+                                  >SO, YOU WANT TO TRAVEL TO</h3>
+
+                                </div>
+
+                                <div className={`midd w-full 
+                                  
+                                                  h-[37%]
+                                                   min-[1440px]:`}>
+                                    <h1
+                                        className={`
+                                  
+                                  
+                                        min-[1440px]:text-[11.1rem] 
+                                        min-[1440px]:
+                                        min-[1440px]:ms-[-0.8rem]
+                                        min-[1440px]:leading-[9.7rem]
+                                        `}
+                                    
+                                    >SPACE</h1>
+                                </div>
+
+                                <div className={`bot w-[90%] 
+                                  
+                                                  h-[28%]
+                                                   min-[1440px]:text-[1.35rem]
+                                                   `}>
+                                      <p>Let's face it; if you want to go to space,
+                                          you might as well 
+
+                                          genuinely go to outer space 
+                                          and not hover kind of on the 
+                                          
+                                          edge of it. Well sit back, and relax because
+                                          we'll give you a truly out of this world experience! 
+                                      </p>
+                                </div>
+
+              </div>
+
+                              {/* left side end */}
+
+
+                              {/* right side start */}
+              <div className={`right bg-white
+                                rounded-full flex text-center justify-center 
+                                items-center
+
+
+                                min-[1440px]:h-[60%]  min-[1440px]:w-[27%]
+                                min-[1440px]:self-center 
+
+                              `}>
+
+                                <h4 className={`
+                                
+                                                text-[2rem] font-light text-black
+                                `}>
+                                    EXPLORE
+                                </h4>
+
+              </div>
+
+                              {/* right side end */}
+
+        </div>
+
       </div>
 
     

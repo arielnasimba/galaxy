@@ -31,7 +31,7 @@ const router = createBrowserRouter([
     //     path:"/home/",
     //     element:<Home/>,
     //     index:true,
-    
+      
 
     //   },
     //   {
@@ -61,19 +61,19 @@ const router = createBrowserRouter([
   //   element:<Home/>,
   // },
   {
-    path: "/destination",
+    path: "/galaxy/destination",
 
     element: <Destination />,
 
   },
   {
-    path: "/crew",
+    path: "/galaxy/crew",
 
     element: <Crew />,
 
   },
   {
-    path: "/tech",
+    path: "/galaxy/tech",
 
     element: <Tech />,
 
