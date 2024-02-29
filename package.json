@@ -2,7 +2,7 @@
   "name": "template_prod",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://arielnasimba.github.io/home/",
+  "homepage": "https://arielnasimba.github.io/galaxy/home/",
   "type": "module",
   "scripts": {
     "predeploy" : "npm run build",
