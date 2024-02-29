@@ -21,14 +21,14 @@ const router = createBrowserRouter([
 
 
   {
-    path: "/galaxy/",
+    path: "/",
 
     element: <NavBar/>,
 
     children:[
       {
   
-        path:"/galaxy/home/",
+        path:"/home",
         element:<Home/>,
         index:true,
     
@@ -36,20 +36,20 @@ const router = createBrowserRouter([
       },
       {
   
-        path:"/galaxy/crew/",
+        path:"/crew",
         element: <Crew/>,
     
 
       },
       {
 
-        path:"/galaxy/destination/",
+        path:"/destination",
         element:<Destination />,
         
       },
       {
 
-        path:"/galaxy/tech/",
+        path:"/tech",
         element:<Tech />,
         
       },
