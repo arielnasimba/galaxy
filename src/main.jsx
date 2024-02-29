@@ -28,7 +28,7 @@ const router = createBrowserRouter([
     children:[
       {
   
-        path:"/galaxy/home",
+        path:"/galaxy/home/",
         element:<Home/>,
         index:true,
     
@@ -36,20 +36,20 @@ const router = createBrowserRouter([
       },
       {
   
-        path:"/crew",
+        path:"/galaxy/crew/",
         element: <Crew/>,
     
 
       },
       {
 
-        path:"/destination",
+        path:"/galaxy/destination/",
         element:<Destination />,
         
       },
       {
 
-        path:"/tech",
+        path:"/galaxy/tech/",
         element:<Tech />,
         
       },
