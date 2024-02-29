@@ -13,14 +13,14 @@ import Home from "./components/Home/Home";
 
 
 const router = createBrowserRouter([
+  {
+    path: "/galaxy/",
+    element: <Root />,
+  },
   // {
   //   path: "/",
-  //   element: <Root />,
+  //   element: <Home/>,
   // },
-  {
-    path: "/",
-    element: <Home/>,
-  },
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(

@@ -1,5 +1,5 @@
 import React from 'react'
-import Home2BG from "../../assets/img/home2-bg.jpg"
+// import Home2BG from "../../assets/img/home2-bg.jpg"
 
 export default function Home() {
   return (
