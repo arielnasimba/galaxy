@@ -68,7 +68,7 @@ export default function NavBar() {
             <Link 
              to={`/home`}>
             
-              <h2 className=" " >00 HOME fe</h2>
+              <h2 className=" " >00 HOME </h2>
             </Link>
 
 
