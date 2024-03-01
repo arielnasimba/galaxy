@@ -94,7 +94,7 @@ export default function NavBar() {
           <li className={`hover:underline hover:underline-offset-[2.5rem] hover:decoration-4`}>
 
             <Link
-              to={`/galaxy/crew/`}
+              to={`/galaxy/crew/0`}
             >
             <h2>02 CREW</h2>
             

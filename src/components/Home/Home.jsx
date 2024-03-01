@@ -5,9 +5,33 @@ import HomeMobile from "../../assets/images/home/background-home-mobile.jpg"
 import { Outlet } from 'react-router-dom'
 import NavBar from '../Navbar/NavBar'
 
+import DATA from "../../assets/data/data.json"
 
 
 export default function Home() {
+
+  // console.log(DATA);
+
+
+    // DATA.crew.map((crewMember) =>{
+    //   console.log(crewMember);
+    // })
+
+    // DATA.map((element, key) => {
+
+    //   console.log(element);
+    //     // return (
+    //     //     <Link 
+    //     //         key={key}
+    //     //         to={`/details/${key}`}
+    //     //         className='cursor-pointer hover:underline hover:font-semibold' 
+    //     //     >
+    //     //         {element.nom}
+    //     //     </Link>
+    //     // ) 
+    // })
+
+
   return (
 
 
@@ -73,7 +97,7 @@ export default function Home() {
                                 <div className={`bot w-[90%] 
                                   
                                                   h-[28%]
-                                                   min-[1440px]:text-[1.35rem]
+                                                   min-[1440px]:text-[1.38rem]
                                                    `}>
                                       <p>Let's face it; if you want to go to space,
                                           you might as well 
