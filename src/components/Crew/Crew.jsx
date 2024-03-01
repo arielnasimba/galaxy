@@ -3,6 +3,7 @@ import NavBar from '../Navbar/NavBar'
 import DATA from "../../assets/data/data.json"
 import TEST from "../../assets/images/crew/image-douglas-hurley.png"
 import { Link, useParams } from 'react-router-dom'
+import '../Crew/Crew.css'
 
 export default function  Crew() {
 
@@ -35,7 +36,7 @@ export default function  Crew() {
     <NavBar />
 
 
-        <div className={`title-meet self-center absolute
+        <div className={`title-meet self-center absolute 
         
 
                             min-[1440px]:top-[13rem] min-[1440px]:left-[11.25rem]
@@ -61,7 +62,7 @@ export default function  Crew() {
         </div>
 
 
-        <div className={`carousel-area  flex justify-between
+        <div className={`carousel-area  flex justify-between 
 
                             self-center   absolute 
                           min-[1440px]:bottom-[1.4rem]
@@ -82,7 +83,7 @@ export default function  Crew() {
                                     w-[50%] h-[16%]
                                 `}>
 
-                                    <h4 className={`text-[1.8rem] text-[rgba(255,255,255,0.8)]`} >{crewId.role}  </h4>
+                                    <h4 className={`text-[1.8rem] text-[rgba(255,255,255,0.8)] uppercase `} >{crewId.role}  </h4>
 
 
                 </div>
@@ -93,14 +94,14 @@ export default function  Crew() {
 
                                 <h5 className={`text-[3.41rem] text-[rgba(255,255,255,1)]
 
-                                                    -ml-1 leading-[3rem]
+                                                    -ml-1 leading-[3rem] uppercase
                                 `} >{crewId.name}   </h5>
 
 
                 </div>
 
 
-                <div className={`desc-crew w-full h-[46%] mt-9  
+                <div className={`desc-crew w-full h-[46%] mt-7 
 
                                         `}>
 
