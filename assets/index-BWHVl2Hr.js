@@ -156,7 +156,7 @@ Error generating stack: `+i.message+`
                                     
                                     min-[1440px]:bg-crew-desktop
                                     min-[1440px]:                
-                    `,children:[j.jsx(Oi,{}),j.jsx("div",{className:`title-meet self-center absolute
+                    `,children:[j.jsx(Oi,{}),j.jsx("div",{className:`title-meet self-center absolute 
         
 
                             min-[1440px]:top-[13rem] min-[1440px]:left-[11.25rem]
@@ -167,7 +167,7 @@ Error generating stack: `+i.message+`
                                 min-[1440px]:text-[1.6rem]   
 
             
-                        `,children:[j.jsx("span",{className:"opacity-30 mr-[2rem] font-semibold",children:"02"}),"MEET YOUR CREW"]})}),j.jsxs("div",{className:`carousel-area  flex justify-between
+                        `,children:[j.jsx("span",{className:"opacity-30 mr-[2rem] font-semibold",children:"02"}),"MEET YOUR CREW"]})}),j.jsxs("div",{className:`carousel-area  flex justify-between 
 
                             self-center   absolute 
                           min-[1440px]:bottom-[1.4rem]
@@ -181,12 +181,12 @@ Error generating stack: `+i.message+`
                                             min-[1440px]:
                             `,children:[j.jsx("div",{className:`role-crew 
                                     w-[50%] h-[16%]
-                                `,children:j.jsxs("h4",{className:"text-[1.8rem] text-[rgba(255,255,255,0.8)]",children:[t.role,"  "]})}),j.jsx("div",{className:`name-crew w-full h-[22%] 
+                                `,children:j.jsxs("h4",{className:"text-[1.8rem] text-[rgba(255,255,255,0.8)] uppercase ",children:[t.role,"  "]})}),j.jsx("div",{className:`name-crew w-full h-[22%] 
 
                                         `,children:j.jsxs("h5",{className:`text-[3.41rem] text-[rgba(255,255,255,1)]
 
-                                                    -ml-1 leading-[3rem]
-                                `,children:[t.name,"   "]})}),j.jsx("div",{className:`desc-crew w-full h-[46%] mt-9  
+                                                    -ml-1 leading-[3rem] uppercase
+                                `,children:[t.name,"   "]})}),j.jsx("div",{className:`desc-crew w-full h-[46%] mt-7 
 
                                         `,children:j.jsx("p",{className:`text-[1.4rem] leading-[2.1rem] text-white opacity-100
                                             tracking-wider
