@@ -12,6 +12,11 @@ export default function NavBar() {
 
       <div className={` fixed 
         
+                                min-[375px]:max-[425px]:w-full min-[375px]:max-[425px]:h-[5.3rem] 
+                                min-[375px]:max-[425px]:
+                                min-[375px]:max-[425px]: min-[375px]:max-[425px]:flex 
+                                min-[375px]:max-[425px]:justify-between
+        
                                 min-[768px]:max-[1023px]:w-full min-[768px]:max-[1023px]:h-[5.3rem] 
                                 min-[768px]:max-[1023px]:
                                 min-[768px]:max-[1023px]: min-[768px]:max-[1023px]:flex 
@@ -31,6 +36,9 @@ export default function NavBar() {
             <div className={`logo_area 
             
                                 
+                                min-[375px]:max-[425px]:w-[15%] 
+            
+                                
                                 min-[768px]:max-[1023px]:w-[10%] 
 
 
@@ -38,6 +46,7 @@ export default function NavBar() {
                                 w-[6%] h-full  flex justify-end items-center min-[1440px]: `}>
 
               <img src={LOGO} alt="" srcset="" className={`
+                                                                 min-[375px]:max-[425px]:w-[78%]
                                                                  min-[768px]:max-[1023px]:w-[62%]
                                                                  min-[1024px]:max-[1439px]:w-[60%]
 
@@ -48,8 +57,6 @@ export default function NavBar() {
 
 
             <div className={`ligne_area 
-
-
 
                                       
 
@@ -82,6 +89,15 @@ export default function NavBar() {
         
           
 
+        
+          
+                                
+                                
+                                min-[375px]:max-[425px]:h-full min-[375px]:max-[425px]
+                                min-[375px]:max-[425px]:self-end min-[375px]:max-[425px]:flex 
+                                min-[375px]:max-[425px]:backdrop-blur-[0px]
+                                min-[375px]:max-[425px]:items-center min-[375px]:max-[425px]:text-[1rem] 
+                                min-[375px]:max-[425px]:tracking-wider min-[375px]:max-[425px]:w-[57.8%]
         
           
                                 
@@ -124,6 +140,8 @@ export default function NavBar() {
                       `}>
           <li className={`hover:underline hover:underline-offset-[2.5rem] hover:decoration-4
           
+                                min-[375px]:max-[425px]:hidden
+          
                                 min-[768px]:max-[1023px]:hover:underline-offset-[2rem]
 
                                 min-[1024px]:max-[1439px]:hover:underline-offset-[2rem]
@@ -133,7 +151,8 @@ export default function NavBar() {
              to={`/galaxy/`}>
             
               <h2 className={`
-              
+                              
+
                               min-[768px]:max-[1023px]:text-[0.85rem]
 
                               min-[1024px]:max-[1439px]:text-[0.8rem]              
@@ -146,7 +165,8 @@ export default function NavBar() {
           </li>
           <li className={`hover:underline hover:underline-offset-[2.5rem] hover:decoration-4
           
-                                min-[768px]:max-[1023px]:hover:underline-offset-[2rem]
+          min-[375px]:max-[425px]:hidden
+          min-[768px]:max-[1023px]:hover:underline-offset-[2rem]
 
                                 min-[1024px]:max-[1439px]:hover:underline-offset-[2rem]
           `}>
@@ -168,7 +188,8 @@ export default function NavBar() {
           </li>
           <li className={`hover:underline hover:underline-offset-[2.5rem] hover:decoration-4
           
-                                min-[768px]:max-[1023px]:hover:underline-offset-[2rem]
+          min-[375px]:max-[425px]:hidden
+          min-[768px]:max-[1023px]:hover:underline-offset-[2rem]
 
                                 min-[1024px]:max-[1439px]:hover:underline-offset-[2rem]
           `}>
@@ -189,7 +210,8 @@ export default function NavBar() {
           </li>
           <li className={`hover:underline hover:underline-offset-[2.5rem] hover:decoration-4
           
-                                min-[768px]:max-[1023px]:hover:underline-offset-[2rem]
+          min-[375px]:max-[425px]:hidden
+          min-[768px]:max-[1023px]:hover:underline-offset-[2rem]
 
                                 min-[1024px]:max-[1439px]:hover:underline-offset-[2rem]
           `}>
