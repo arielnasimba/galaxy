@@ -19,69 +19,24 @@ import Destination from "./components/Destination/Destination";
 const router = createBrowserRouter([
 
 
-
   {
     path: "/galaxy",
-
     element: <Home />,
 
-    // children:[
-    //   {
-  
-    //     path:"/home/",
-    //     element:<Home/>,
-    //     index:true,
-
-
-    //   },
-    //   {
-  
-    //     path:"/galaxy/crew/",
-    //     element: <Crew/>,
-    
-
-    //   },
-    //   {
-
-    //     path:"/galaxy/destination/",
-    //     element:<Destination />,
-        
-    //   },
-    //   {
-
-    //     path:"/galaxy/tech/",
-    //     element:<Tech />,
-        
-    //   },
-    // ]
-    
   },
-  // {
-  //   path:"/galaxy/home/",
-  //   element:<Home/>,
-  // },
+
   {
     path: "/galaxy/destination/:id",
-
     element: <Destination/>,
 
   },
   {
     path: "/galaxy/crew/:id",
-
     element: <Crew/>,
-
-    // children:[
-
-    //   {
-
-    //   }
-    // ],
 
   },
   {
-    path: "/galaxy/tech",
-
+    path: "/galaxy/tech/:id",
     element: <Tech />,
 
   },

@@ -13,7 +13,7 @@ export default function Destination() {
 
   const src_planetId = (destinationId.images.png).split('/').splice(2,4).join('/');
 
-  // const srcId = new URL(`../../assets/images/${src_crewId}`, import.meta.url).href;
+  const srcId = new URL(`../../assets/images/${src_planetId}`, import.meta.url).href;
 
   return (
     <>
@@ -67,7 +67,7 @@ export default function Destination() {
                                             min-[1440px]:mt-[0rem]
                             `}
           >
-            <img src={TstImage} alt="" />
+            <img src={srcId} alt="" />
 
             <div
               className={`buttons-area absolute bottom-[6.5rem]  w-[10rem] h-[1rem]     `}
@@ -128,36 +128,7 @@ export default function Destination() {
                     })
                   }
 
-{/* 
 
-                  <li
-                    className={`hover:underline hover:underline-offset-[0.7rem] hover:decoration-[2px]`}
-                  >
-                    <Link to={`/galaxy/destination/`}>
-                      <h2 className=" ">MOON </h2>
-                    </Link>
-                  </li>
-                  <li
-                    className={`hover:underline hover:underline-offset-[0.7rem] hover:decoration-[2px]`}
-                  >
-                    <Link to={`/galaxy/destination/`}>
-                      <h2>MARS</h2>
-                    </Link>
-                  </li>
-                  <li
-                    className={`hover:underline hover:underline-offset-[0.7rem] hover:decoration-[2px]`}
-                  >
-                    <Link to={`/galaxy/crew/0`}>
-                      <h2>EUROPA</h2>
-                    </Link>
-                  </li>
-                  <li
-                    className={`hover:underline hover:underline-offset-[0.7rem] hover:decoration-[2px]`}
-                  >
-                    <Link to={`/galaxy/tech/`}>
-                      <h2>TITAN</h2>
-                    </Link>
-                  </li> */}
                 </ul>
               </nav>
             </div>

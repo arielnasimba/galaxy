@@ -103,7 +103,7 @@ export default function NavBar() {
           <li className={`hover:underline hover:underline-offset-[2.5rem] hover:decoration-4`}>
 
             <Link
-              to={`/galaxy/tech/`}
+              to={`/galaxy/tech/0`}
          
             >
             
