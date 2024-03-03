@@ -61,9 +61,9 @@ const router = createBrowserRouter([
   //   element:<Home/>,
   // },
   {
-    path: "/galaxy/destination",
+    path: "/galaxy/destination/:id",
 
-    element: <Destination />,
+    element: <Destination/>,
 
   },
   {
