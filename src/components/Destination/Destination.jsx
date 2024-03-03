@@ -78,7 +78,7 @@ export default function Destination() {
         </div>
 
         <div
-          className={`carousel-area bg-black
+          className={`carousel-area 
  
                           min-[768px]:max-[1023px]:w-[80%] min-[768px]:max-[1023px]:h-[76%]
                           min-[768px]:max-[1023px]:flex  min-[768px]:max-[1023px]:justify-between 
@@ -137,7 +137,7 @@ export default function Destination() {
 
 
 
-                  bg-red-400
+                  
                           min-[768px]:max-[1023px]:w-full 
                           min-[768px]:max-[1023px]:h-[48%] 
                           min-[768px]:max-[1023px]:flex  
@@ -163,12 +163,12 @@ export default function Destination() {
             `}
           >
             {/* <Outlet > */}
-            <div className={`navPlanets w-[68%] h-[7%] `}>
+            <div className={`navPlanets w-full h-[10%] `}>
               <nav
-                className={`    text-white bg-slate-400
+                className={`    text-white  
         
           
-                                    min-[768px]:max-[1023px]:w-full min-[768px]:max-[1023px]:h-full 
+                                    min-[768px]:max-[1023px]:w-[50%] min-[768px]:max-[1023px]:h-full 
                                     min-[768px]:max-[1023px]:  min-[768px]:max-[1023px]:m-auto 
                                     min-[768px]:max-[1023px]:flex min-[768px]:max-[1023px]:font-light
                                     min-[768px]:max-[1023px]:items-center min-[768px]:max-[1023px]:text-[1.1rem] 
@@ -191,10 +191,10 @@ export default function Destination() {
               >
                 <ul
                   className={`  
-
-                      min-[768px]:max-[1023px]: min-[768px]:max-[1023px]:w-full 
+                              
+                      min-[768px]:max-[1023px]:text-[1.4rem] min-[768px]:max-[1023px]:w-full 
                       min-[768px]:max-[1023px]:h-full min-[768px]:max-[1023px]:mx-auto 
-                      min-[768px]:max-[1023px]:flex min-[768px]:max-[1023px]:gap-3
+                      min-[768px]:max-[1023px]:flex min-[768px]:max-[1023px]:gap-1
                       min-[768px]:max-[1023px]: min-[768px]:max-[1023px]:items-center
                       min-[768px]:max-[1023px]:justify-between                      
 
@@ -244,6 +244,11 @@ export default function Destination() {
 
             <div className={`title-planet
  
+                  
+                                    min-[768px]:max-[1023px]:self-center
+                                    min-[768px]:max-[1023px]:w-[50%] 
+                                    min-[768px]:max-[1023px]:h-[18%] 
+                                    min-[768px]:max-[1023px]:flex
  
                                     min-[1024px]:max-[1439px]:
                                     min-[1024px]:max-[1439px]:w-[75%] 
@@ -259,6 +264,11 @@ export default function Destination() {
 
                               <h1 className={` text-white uppercase
 
+
+
+                                                    min-[768px]:max-[1023px]:leading-[4rem] min-[768px]:max-[1023px]:m-auto
+
+                                                    min-[768px]:max-[1023px]:text-[6.1rem] min-[768px]:max-[1023px]:-ml-[0.6rem]
 
 
                                                     min-[1024px]:max-[1439px]:leading-[6rem] 
@@ -278,13 +288,14 @@ export default function Destination() {
             <div className={`text-planet 
  
  
-
+ min-[768px]:max-[1023px]:text-center
                                     min-[1440px]:w-full min-[1440px]:h-[24%] min-[1440px]:flex
 
 
                             `}>
 
                                <p className={`text-white font-[300] tracking-[0.05rem] leading-[1.7rem]
+                                                    min-[768px]:max-[1023px]:text-[1.25rem] min-[1440px]:
                                                     min-[1440px]:text-[1.35rem] min-[1440px]:
                                             `}>
                                   
@@ -307,6 +318,11 @@ export default function Destination() {
 
                               <div className={`right-time   
                               
+                              
+                                                        min-[768px]:max-[1023px]:-mr-[7rem] min-[768px]:max-[1023px]:mb-[1rem] 
+                                                        min-[768px]:max-[1023px]:flex min-[768px]:max-[1023px]:flex-col 
+                                                        min-[768px]:max-[1023px]:justify-between
+                                                        min-[768px]:max-[1023px]:w-[48%] min-[768px]:max-[1023px]:h-[22%] 
                               
                                                         min-[1024px]:max-[1439px]:mr-[1rem] min-[1024px]:max-[1439px]:mb-[0.8rem] 
                                                         min-[1024px]:max-[1439px]:flex min-[1024px]:max-[1439px]:flex-col 
